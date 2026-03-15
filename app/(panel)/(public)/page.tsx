@@ -1,5 +1,7 @@
 import Header from './_components/header'
 import Hero from './_components/hero'
+import Professionals from './_components/professionals'
+import Footer from './_components/footer'
 
 const Home = () => {
   return (
@@ -7,6 +9,8 @@ const Home = () => {
       <Header />
       <div>
         <Hero />
+        <Professionals />
+        <Footer />
       </div>
     </div>
   )
